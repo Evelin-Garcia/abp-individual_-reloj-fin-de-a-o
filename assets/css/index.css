@@ -1,0 +1,61 @@
+body {
+  background-image: url(../images/fondo.jpg);
+  background-repeat: no-repeat;
+}
+header{
+  text-align: center;
+}
+h1{
+  font-family:lucida handwriting;
+  font-size: 3.5rem;
+  color:rgb(29, 12, 12);
+  margin-top: 1rem;
+  background-color: rgba(255, 255, 255, 0.387);
+  width: 70%;
+  margin: auto;
+  border-radius: 10px
+
+}
+p{
+  text-align: center;
+  color:rgb(94, 19, 44);
+  font-size: 2rem;
+  margin-top: 3rem;
+  background-color: rgba(255, 255, 255, 0.537);
+  width: 70%;
+  margin: auto;
+  border-radius: 10px
+}
+.reloj{
+  display: block;
+  margin: auto;
+  width: 20vw;
+  margin-top: 7rem;
+}
+.contadorClass{
+  text-align: center;
+  font-size: 3rem;
+  border-style: inset;
+  border-color: rgba(206, 209, 24, 0.286);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  background-color: rgba(2, 0, 36, 0.286);
+  background:rgb(222,221,233, 0.286);
+  background: rgb(34,193,195, 0.286);
+  background: rgb(222,221,233, 0.286);
+  background: linear-gradient(90deg, rgba(222, 221, 233, 0.676) 0%, rgba(237, 175, 51, 0.567) 78%);
+}
+.dias{
+  color:rgb(106, 133, 65)
+}
+.horas{
+  color: rgb(25, 43, 202);
+}
+.minutos{
+  color: rgb(194, 15, 15);
+}
+.segundos{
+  color: rgb(71, 218, 238);
+}
